@@ -14,7 +14,7 @@ class TelaPython:
           [sg.Radio('Sim', 'Cartões',key='aceita_cartao'),sg.Radio('Não', 'Cartões',key='nao_aceita_cartao')],
           [sg.Slider(range(0,100),default_value=0,orientation='h',size=(15,20), key='sliderVelocidade')],
           [sg.Button('CONFIRMAR')],
-          [sg.Output(size=(30,20))] #Exibe os dados em um campo visual 
+          [sg.Output(size=(30,10))] #Exibe os dados em um campo visual 
         ]
         #Janela
         janela = sg.Window('Dados do Usuário').layout(layout) #self.janela faz com que ela mantenha a janela aberta sempre, porem depende um lop while True na função de exibição

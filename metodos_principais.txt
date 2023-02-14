@@ -1,0 +1,31 @@
+quais os principais metodos do pysimple gui
+
+sg.Window(): cria uma nova janela para exibir elementos de interface do usuário.
+sg.Text(): exibe texto na janela.
+sg.Input(): cria uma caixa de entrada para que o usuário insira dados.
+sg.Button(): cria um botão que o usuário pode clicar para executar uma ação.
+sg.Popup(): exibe uma mensagem pop-up para o usuário.
+sg.Image(): exibe uma imagem na janela.
+sg.Listbox(): cria uma lista de opções que o usuário pode selecionar.
+sg.Checkbox(): cria uma caixa de seleção que o usuário pode marcar ou desmarcar.
+sg.Radio(): cria um conjunto de botões de opção que o usuário pode selecionar uma única opção.
+sg.Multiline(): cria uma caixa de texto de várias linhas que o usuário pode inserir e editar texto.
+sg.ProgressBar(): cria uma barra de progresso para indicar o andamento de uma tarefa em execução.
+sg.Combo(): cria um menu suspenso que o usuário pode usar para selecionar uma opção de uma lista de opções.
+sg.Slider(): cria um controle deslizante que o usuário pode usar para selecionar um valor dentro de um intervalo.
+sg.CalendarButton(): cria um botão que abre um calendário para selecionar uma data.
+sg.PopupGetText(): exibe uma janela pop-up com uma caixa de entrada para que o usuário insira um valor e retorna o valor inserido.
+sg.Table(): cria uma tabela para exibir dados em uma grade.
+sg.Canvas(): cria uma área de desenho para exibir gráficos, imagens e outras visualizações personalizadas.
+sg.FileBrowse(): cria um botão que abre uma janela para selecionar um arquivo no sistema de arquivos.
+sg.FolderBrowse(): cria um botão que abre uma janela para selecionar um diretório no sistema de arquivos.
+sg.Column(): cria uma coluna na janela para exibir elementos de interface do usuário.
+sg.Frame(): cria um quadro que pode agrupar elementos de interface do usuário.
+sg.Tabs(): cria abas para exibir conjuntos diferentes de elementos de interface do usuário.
+sg.MenuBar(): cria uma barra de menu para navegar entre as opções do menu.
+sg.PopupScrolled(): exibe uma janela pop-up com uma área de texto rolável para exibir mensagens longas.
+sg.PopupYesNo(): exibe uma janela pop-up com botões Sim/Não para que o usuário possa confirmar ou cancelar uma ação.
+sg.Print(): envia uma saída de texto para a impressora padrão do sistema.
+sg.theme(): define o tema da janela e dos elementos de interface do usuário.
+sg.SetOptions(): define as opções globais do PySimpleGUI, como fontes, cores e tamanhos de janela padrão.
+sg.SystemTray(): cria um ícone na bandeja do sistema que permite exibir janelas pop-up ou executar ações quando clicado.
